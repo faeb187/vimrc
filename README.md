@@ -2,13 +2,20 @@
 
 my personal vim settings, feel free to use them too...
 
-## General
+## Installation
 
-* You can toggle between insert and paste mode by F2 now
-* lines longer than 80 characters get highlighted
-* I like my comments italic
+```bash
+# backup current .vimrc
+$ mv ~/.vimrc ~/.vimrc.bak
 
-## Pathogen
+# install my version
+$ wget https://raw.githubusercontent.com/faeb187/vimrc/master/.vimrc ~/.
+```
+
+To make my version running you need to install some dependencies
+(or comment out what you don't need, it's up to you)
+
+### Pathogen
 
 if you're not using pathogen yet, it's time to install it:
 
@@ -17,7 +24,7 @@ $ mkdir -p ~/.vim/autoload ~/.vim/bundle
 $ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
-## Solarized Colorscheme
+### Solarized Colorscheme
 
 as you've installed pathogen, you can install the solarized scheme with it:
 
@@ -39,16 +46,16 @@ export TERM="xterm-256color"
 $ source ~/.bashrc
 ```
 
-## Syntax Highlighting
+### Syntax Highlighting
 
-### TypeScript
+#### TypeScript
 
 ```bash
 # requires pathogen
 $ git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
 ```
 
-### Docker
+#### Docker
 
 ```bash
 # requires pathogen
