@@ -7,6 +7,7 @@
 set         fileencodings=utf-8
 set         pastetoggle=<F2>
 
+
 "
 " WEBDEV
 "
@@ -17,7 +18,6 @@ set         t_ZH=[3m
 set         t_ZR=[23m
 set         t_Co=256
 highlight   OverLength ctermbg=red ctermfg=white guibg=#592929
-highlight   Comment cterm=italic
 
 "
 " SOLARIZED SCHEME
@@ -25,6 +25,12 @@ highlight   Comment cterm=italic
 let         g:solarized_termcolors=256
 set         background=dark
 colo        solarized
+
+"
+" COMMENTS ITALIC
+"
+"
+highlight   Comment cterm=italic
 
 "
 " STYLEGUIDE METEOR
