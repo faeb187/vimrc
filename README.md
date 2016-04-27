@@ -59,3 +59,4 @@ $ git clone https://github.com/ekalinin/Dockerfile.vim.git ~/.vim/bundle/Dockerf
 
 <img src="examples/typescript.png" height="270">
 <img src="examples/docker.png" height="270">
+<img src="examples/vimrc.png" height="270">
