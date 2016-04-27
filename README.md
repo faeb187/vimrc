@@ -29,5 +29,5 @@ $ cd ~/.vim/bundle && git clone git://github.com/altercation/vim-colors-solarize
 $ mv vim-colors-solarized/colors ../.
 ```
 
-![readme.png](examples/readme.png)
-![vimrc.png](examples/vimrc.png)
+![readme.png](examples/readme.png =x100)
+![vimrc.png](examples/vimrc.png =x100)
