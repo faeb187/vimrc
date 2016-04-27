@@ -6,7 +6,7 @@ my personal vim settings, feel free to use them too...
 
 * You can toggle between insert and paste mode by F2 now
 * lines longer than 80 characters get highlighted
-* ...
+* comments italic (somehow broken, I'll fix it)
 
 ## pathogen
 
@@ -33,7 +33,7 @@ $ mv vim-colors-solarized/colors ../.
 <img src="examples/readme.png" height="270">
 <img src="examples/vimrc.png" height="270">
 
-** TypeScript Syntax Highlighting
+## typescript syntax highlighting
 
 using pathogen again to install this feature:
 
