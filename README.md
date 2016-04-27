@@ -37,10 +37,10 @@ if the colors aren't that n!ce in your terminal:
 
 ```bash
 # make sure you support 256 colors
-echo $TERM
+$ echo $TERM
 
 # add this line to your ~/.bashrc
-export TERM="xterm-256color"
+$ export TERM="xterm-256color"
 ```
 
 ## typescript syntax highlighting
@@ -48,5 +48,5 @@ export TERM="xterm-256color"
 using pathogen again to install this feature:
 
 ```bash
-git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
+$ git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
 ```
