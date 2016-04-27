@@ -33,6 +33,16 @@ $ mv vim-colors-solarized/colors ../.
 <img src="examples/readme.png" height="270">
 <img src="examples/vimrc.png" height="270">
 
+if the colors aren't that n!ce in your terminal:
+
+```bash
+# make sure you support 256 colors
+echo $TERM
+
+# add this line to your ~/.bashrc
+export TERM="xterm-256color"
+```
+
 ## typescript syntax highlighting
 
 using pathogen again to install this feature:
