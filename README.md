@@ -29,7 +29,7 @@ $ cd ~/.vim/bundle && git clone git://github.com/altercation/vim-colors-solarize
 $ mv vim-colors-solarized/colors ../.
 ```
 
-<img src="examples/typescript.png" height="300"
+<img src="examples/typescript.png" height="300">
 <img src="examples/readme.png" height="300">
 <img src="examples/vimrc.png" height="300">
 
