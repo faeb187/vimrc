@@ -8,12 +8,12 @@ my personal vim settings, feel free to use them too...
 # backup current .vimrc
 $ mv ~/.vimrc ~/.vimrc.bak
 
-# install my version
+# install .vimrc from this repository
 $ wget https://raw.githubusercontent.com/faeb187/vimrc/master/.vimrc ~/.
 ```
 
-To make my version running you need to install some dependencies
-(or comment out what you don't need, it's up to you)
+In order to make this version running you need to install some dependencies
+(or comment out what you don't need, it's up to you)...
 
 ### Pathogen
 
