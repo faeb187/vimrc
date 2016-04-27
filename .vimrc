@@ -29,7 +29,6 @@ colo        solarized
 "
 " COMMENTS ITALIC
 "
-"
 highlight   Comment cterm=italic
 
 "
