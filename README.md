@@ -2,6 +2,12 @@
 
 my personal vim settings, feel free to use them too...
 
+## general
+
+* You can toggle between insert and paste mode by F2 now
+* lines longer than 80 characters get highlighted
+* ...
+
 ## pathogen
 
 if you're not using pathogen yet, it's time to install it:
@@ -13,7 +19,7 @@ $ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 ## solarized colorscheme
 
-as you're running pathogen, you can install the solarized scheme with it:
+as you've installed pathogen, you can install the solarized scheme with it:
 
 ```bash
 # clone the repository
@@ -22,3 +28,6 @@ $ cd ~/.vim/bundle && git clone git://github.com/altercation/vim-colors-solarize
 # move the scheme into .vim/colors
 $ mv vim-colors-solarized/colors ../.
 ```
+
+![readme.png](examples/readme.png)
+![vimrc.png](examples/vimrc.png)
