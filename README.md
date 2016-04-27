@@ -29,10 +29,6 @@ $ cd ~/.vim/bundle && git clone git://github.com/altercation/vim-colors-solarize
 $ mv vim-colors-solarized/colors ../.
 ```
 
-<img src="examples/typescript.png" height="270">
-<img src="examples/readme.png" height="270">
-<img src="examples/vimrc.png" height="270">
-
 not working yet? try:
 
 ```bash
@@ -51,3 +47,15 @@ $ source ~/.bashrc
 # requires pathogen
 $ git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
 ```
+
+### Docker
+
+```bash
+# requires pathogen
+$ git clone https://github.com/ekalinin/Dockerfile.vim.git ~/.vim/bundle/Dockerfile
+```
+
+## Screenshots
+
+<img src="examples/typescript.png" height="270">
+<img src="examples/docker.png" height="270">
