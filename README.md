@@ -6,10 +6,13 @@ my personal vim settings, feel free to use them too...
 
 ```bash
 # backup current .vimrc
-$ mv ~/.vimrc ~/.vimrc.bak
+$ cd ~ && mv ~/.vimrc ~/.vimrc.bak
 
 # install .vimrc from this repository
-$ wget https://raw.githubusercontent.com/faeb187/vimrc/master/.vimrc ~/.
+$ git clone git@github.com:faeb187/vimrc.git
+
+# add a symbolic link to the .vimrc (update with ease)
+$ ln -s vimrc/.vimrc .vimrc
 ```
 
 In order to make this version running you need to install some dependencies
