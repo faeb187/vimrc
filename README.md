@@ -30,7 +30,7 @@ as you've installed pathogen, you can install the solarized scheme with it:
 
 ```bash
 # clone the repository
-$ cd ~/.vim/bundle && git clone git://github.com/altercation/vim-colors-solarized.git
+$ cd ~/.vim/bundle && git clone git@github.com:altercation/vim-colors-solarized.git
 
 # move the scheme into .vim/colors
 $ mv vim-colors-solarized/colors ../.
