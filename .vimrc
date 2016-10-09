@@ -7,7 +7,6 @@
 set         fileencodings=utf-8
 set         pastetoggle=<F2>
 
-
 "
 " WEBDEV
 "
@@ -42,3 +41,6 @@ match       OverLength /\%>80v.\+/
 
 " PATHOGEN
 execute     pathogen#infect()
+
+" COFFEESCRIPT SYNTAX
+filetype    plugin indent on

@@ -65,6 +65,30 @@ $ git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/type
 $ git clone https://github.com/ekalinin/Dockerfile.vim.git ~/.vim/bundle/Dockerfile
 ```
 
+#### Jade
+
+```bash
+# requires pathogen
+$ cd ~/.vim/bundle
+$ git clone git://github.com/digitaltoas/vim-pug.git
+```
+
+#### Coffee
+
+```bash
+# requires pathogen
+$ cd ~/.vim/bundle
+$ git clone https://github.com/kchmck/vim-coffee-script.git
+```
+
+#### Stylus
+
+```bash
+# requires pathogen
+$ cd ~/.vim/bundle
+$ git clone git://github.com/waded/vim-stylus.git
+```
+
 ## Screenshots
 
 <img src="examples/typescript.png" height="270">
