@@ -65,12 +65,12 @@ $ git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/type
 $ git clone https://github.com/ekalinin/Dockerfile.vim.git ~/.vim/bundle/Dockerfile
 ```
 
-#### Jade
+#### Pug (Jade)
 
 ```bash
 # requires pathogen
 $ cd ~/.vim/bundle
-$ git clone git://github.com/digitaltoas/vim-pug.git
+$ git clone https://github.com/digitaltoas/vim-pug.git
 ```
 
 #### Coffee
@@ -86,7 +86,7 @@ $ git clone https://github.com/kchmck/vim-coffee-script.git
 ```bash
 # requires pathogen
 $ cd ~/.vim/bundle
-$ git clone https://github.com/waded/vim-stylus.git
+$ git clone https://github.com/wavded/vim-stylus.git
 ```
 
 ## Screenshots
