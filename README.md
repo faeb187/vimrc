@@ -9,7 +9,7 @@ my personal vim settings, feel free to use them too...
 $ cd ~ && mv ~/.vimrc ~/.vimrc.bak
 
 # install .vimrc from this repository
-$ git clone git@github.com:faeb187/vimrc.git
+$ git clone https://github.com/faeb187/vimrc.git
 
 # add a symbolic link to the .vimrc (update with ease)
 $ ln -s vimrc/.vimrc .vimrc
@@ -33,7 +33,7 @@ as you've installed pathogen, you can install the solarized scheme with it:
 
 ```bash
 # clone the repository
-$ cd ~/.vim/bundle && git clone git@github.com:altercation/vim-colors-solarized.git
+$ cd ~/.vim/bundle && git clone https://github.com/altercation/vim-colors-solarized.git
 
 # move the scheme into .vim/colors
 $ mv vim-colors-solarized/colors ../.
@@ -86,7 +86,7 @@ $ git clone https://github.com/kchmck/vim-coffee-script.git
 ```bash
 # requires pathogen
 $ cd ~/.vim/bundle
-$ git clone git://github.com/waded/vim-stylus.git
+$ git clone https://github.com/waded/vim-stylus.git
 ```
 
 ## Screenshots
