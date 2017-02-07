@@ -70,7 +70,7 @@ $ git clone https://github.com/ekalinin/Dockerfile.vim.git ~/.vim/bundle/Dockerf
 ```bash
 # requires pathogen
 $ cd ~/.vim/bundle
-$ git clone https://github.com/digitaltoas/vim-pug.git
+$ git clone https://github.com/digitaltoad/vim-pug.git
 ```
 
 #### Coffee
