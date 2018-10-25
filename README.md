@@ -89,6 +89,13 @@ $ cd ~/.vim/bundle
 $ git clone https://github.com/wavded/vim-stylus.git
 ```
 
+### Prettier
+
+```bash
+cd ~/.vim/bundle
+git clone https://github.com/prettier/vim-prettier
+```
+
 ## Screenshots
 
 <img src="examples/typescript.png" height="270">
